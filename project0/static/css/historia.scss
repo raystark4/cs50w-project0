@@ -243,7 +243,6 @@ $max-width-contenedor: 1200px;
     .hero {
         height: 100vh;
         min-width: 100px;
-        position: cover;
         padding: 20px 0 50px 0;
         background-color: #000;
         border-bottom-left-radius: 10%;
@@ -285,7 +284,6 @@ $max-width-contenedor: 1200px;
     .hero {
         height: 100vh;
         min-width: 100px;
-        position: cover;
         padding: 20px 0 50px 0;
         background-color: #000;
         border-bottom-left-radius: 10%;
@@ -326,7 +324,6 @@ $max-width-contenedor: 1200px;
     .hero {
         height: 100vh;
         min-width: 100px;
-        position: cover;
         padding: 20px 0 50px 0;
         background-color: #000;
         border-bottom-left-radius: 10%;
@@ -335,8 +332,12 @@ $max-width-contenedor: 1200px;
         .hero_container {
             display: flex;
             flex-direction: column;
+            padding-top: 80px;
         }
 
+        .hero_textos{
+            padding-bottom: 85px;
+        }
         .hero_video {
             width: 200px;
             height: 200px;

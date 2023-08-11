@@ -1,0 +1,111 @@
+/*body{
+    background-color: #ccc;
+}*/
+/* HEADER */
+.header {
+  width: 100%;
+  height: 500px;
+  background: no-repeat center center fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.photolari.com/wp-content/uploads/2022/11/leibobitz-vuitton-portada.jpg");
+  background-size: cover;
+}
+
+.header .textos-header {
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.textos-header h1 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.textos-header h2 {
+  font-size: 25px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.wave {
+  position: relative;
+  bottom: 10px;
+  width: 100%;
+}
+
+/* FIN HEADER */
+/* */
+#titulo-jugadores {
+  margin-top: 12rem;
+}
+
+/* ACERCA */
+.acerca {
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+  place-items: center;
+  padding: 150px 0;
+  border-bottom: #110155 solid 2px;
+}
+.acerca .acerca-origen {
+  width: 90%;
+}
+.acerca .acerca-parraf {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+.acerca .acerca-pic {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.acerca .acerca-img {
+  width: 75%;
+  padding-bottom: 15px;
+}
+.acerca #acerca-imgjuga {
+  width: 250px;
+  height: 300px;
+  margin: 15px;
+  border-radius: 1%;
+}
+.acerca #acerca-imgnica {
+  width: 80px;
+  height: 40px;
+}
+.acerca #acerca-imgusa {
+  width: 80px;
+  height: 60px;
+}
+.acerca #caru {
+  width: 400px;
+  height: 281.66px;
+}
+
+#titulo-juga {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 325px) {
+  .acerca .acerca-pic #caru {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 377px) {
+  .acerca .acerca-pic #caru {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}/*# sourceMappingURL=jugadores.css.map */

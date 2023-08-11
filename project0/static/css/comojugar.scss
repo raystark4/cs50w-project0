@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+    background-color: #F0F8FF;
+}
+/* HEADER */
+.headerC {
+    width: 100%;
+    height: 600px;
+    background: no-repeat center center cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images5.alphacoders.com/875/875704.jpg");
+    background-size: cover;
+}
+
+.headerC .textos-headerC {
+    display: flex;
+    height: 530px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-headerC h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.textos-headerC h2 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+
+/* FIN HEADER */
+
+
+%span{
+    font-size: 20px;
+    color: #0519ae;
+    font-weight: 700;
+}
+/* CONTENIDO COMO JUGAR*/
+.contenidoC{
+    margin-top: 80px;
+    place-items: center;
+
+    .contenedor-contenidoC{
+        width: 90%;
+    }
+    .tituloC{
+        font-size: 2rem;
+        padding: 20px 0 20px 0;
+    }
+    .parrafoC{
+        text-align: justify;
+    }
+    li{
+        text-align: justify;
+        font-size: 18px;
+    }
+}
+
+.parrafoC{
+    font-size: 18px;
+   
+}
+span{
+    @extend %span;
+}
+/* lista de acerca */
+$color-listas:#0519ae;
+.lista > li{
+    font-size: 18px;
+    color: $color-listas;
+    text-align: justify;
+}
+/*Piezas*/
+.tabla-piezas{
+    margin: 50px;
+}
+
+#piezas-aje {
+    margin-top: 80px;
+    .conten {
+        grid-template-columns: repeat(3, auto)   }
+}
